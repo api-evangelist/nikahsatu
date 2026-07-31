@@ -1,7 +1,25 @@
 aid: nikahsatu
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nikahsatu.png
 name: Nikahsatu
-description: Nikahsatu is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Nikahsatu is a Malaysian wedding-planning marketplace that helps couples plan and budget
+  their weddings more easily and affordably. The consumer-facing platform curates venue packages across
+  Kuala Lumpur, Selangor, Johor, Melaka, Penang and other Malaysian states, along with wedding vendor
+  services such as digital and printed invitations, photography and videography, traditional songket
+  attire, and custom gift boxes, bundled into coordinated all-in-one wedding packages with promotional
+  rebates. It is built on WordPress/WooCommerce and surfaced in the API Evangelist network as a
+  portfolio company of 500 Global. As of this enrichment pass Nikahsatu publishes no public API,
+  developer portal, or machine-readable API surface.
 url: https://raw.githubusercontent.com/api-evangelist/nikahsatu/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Weddings
+- Marketplace
+- Events
+- E-Commerce
+- Malaysia
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,16 @@ maintainers:
 common:
 - type: Website
   url: https://nikahsatu.com
+- type: TermsOfService
+  url: https://nikahsatu.com/terms/
+- type: PrivacyPolicy
+  url: https://nikahsatu.com/privacy-policy/
+- type: Blog
+  url: https://nikahsatu.com/blog/
+- type: DomainSecurity
+  url: security/nikahsatu-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
